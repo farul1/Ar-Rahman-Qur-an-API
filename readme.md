@@ -112,12 +112,3 @@ Kami menerima kontribusi dari siapa saja yang ingin membantu mengembangkan aplik
 Aplikasi ini menggunakan **MIT License**. Anda bebas untuk menggunakannya, memodifikasi, dan mendistribusikannya dengan syarat mencantumkan lisensi ini.
 
 ---
-
-Terima kasih telah menggunakan **Ar-Rahman Qur'an**! Semoga aplikasi ini bermanfaat dalam mendengarkan bacaan Al-Quran dengan nyaman. 🙏
-
-
-### Penjelasan:
-1. **Logo**: Logo aplikasi ditampilkan di bagian atas. Pastikan Anda memiliki file logo `logo.png` yang sesuai di direktori yang sama dengan file README.md.
-2. **Tampilan Aplikasi**: Dilengkapi dengan screenshot aplikasi yang dapat Anda tambahkan sebagai file `screenshot.png`.
-3. **Instalasi**: Langkah-langkah instalasi dijelaskan untuk pengguna yang ingin menjalankan aplikasi di lokal mereka.
-4. **Kontribusi dan Lisensi**: Menyediakan panduan untuk kontribusi dan informasi lisensi.
