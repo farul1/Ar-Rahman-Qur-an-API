@@ -30,25 +30,38 @@ Anda dapat mencoba aplikasi **Ar-Rahman Qur'an** secara langsung di sini:
      - **Format**: JSON
      - **Contoh Response**:
        ```json
-       {
-         "data": [
-           {
-             "number": 1,
-             "name": "Al-Fatiha",
-             "englishName": "The Opening",
-             "englishNameTranslation": "The Opening",
-             ...
-           },
-           {
-             "number": 2,
-             "name": "Al-Baqarah",
-             "englishName": "The Cow",
-             "englishNameTranslation": "The Cow",
-             ...
-           },
-           ...
-         ]
-       }
+{
+    "code": 200,
+    "status": "OK",
+    "data": [
+        {
+            "number": 1,
+            "name": "سورة الفاتحة",
+            "englishName": "Al-Faatiha",
+            "englishNameTranslation": "The Opening",
+            "numberOfAyahs": 7,
+            "revelationType": "Meccan"
+        },
+        {
+            "number": 2,
+            "name": "سورة البقرة",
+            "englishName": "Al-Baqara",
+            "englishNameTranslation": "The Cow",
+            "numberOfAyahs": 286,
+            "revelationType": "Medinan"
+        },
+        {
+            "number": 3,
+            "name": "سورة آل عمران",
+            "englishName": "Aal-i-Imraan",
+            "englishNameTranslation": "The Family of Imraan",
+            "numberOfAyahs": 200,
+            "revelationType": "Medinan"
+        },
+        ...
+    ]
+}
+
        ```
 
    - **Penjelasan**:
