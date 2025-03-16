@@ -99,16 +99,10 @@ Aplikasi **Ar-Rahman Qur'an** memiliki antarmuka yang ramah pengguna dengan bebe
 
 1. **Pilih Pembaca (Qari)**: Pilih pembaca dari dropdown yang tersedia.
 2. **Pilih Surah**: Pilih surah yang ingin didengarkan dari dropdown yang tersedia.
-3. **Klik "Putar Surat"**: Tekan tombol untuk mulai mendengarkan surah yang dipilih dengan pembaca yang telah dipilih.
+3. **Play Full Surah"**: Tekan tombol untuk mulai mendengarkan surah yang dipilih dengan pembaca yang telah dipilih.
 4. **Teks Surah**: Teks surah akan ditampilkan secara otomatis di bawah pemutar audio.
 
 
-## Kontribusi
 
-Kami menerima kontribusi dari siapa saja yang ingin membantu mengembangkan aplikasi ini! Jika Anda memiliki saran atau ingin melaporkan masalah, silakan buat **issue** atau **pull request** di repositori ini.
-
-## Lisensi
-
-Aplikasi ini menggunakan **MIT License**. Anda bebas untuk menggunakannya, memodifikasi, dan mendistribusikannya dengan syarat mencantumkan lisensi ini.
 
 ---
