@@ -100,30 +100,6 @@ Aplikasi **Ar-Rahman Qur'an** memiliki antarmuka yang ramah pengguna dengan bebe
 3. **Klik "Putar Surat"**: Tekan tombol untuk mulai mendengarkan surah yang dipilih dengan pembaca yang telah dipilih.
 4. **Teks Surah**: Teks surah akan ditampilkan secara otomatis di bawah pemutar audio.
 
-## Screenshot
-
-![Screenshot Ar-Rahman Qur'an](screenshot.png)
-
-## Instalasi
-
-Jika Anda ingin menjalankan aplikasi secara lokal, ikuti langkah-langkah berikut:
-
-1. **Clone repository ini**:
-   ```bash
-   git clone https://github.com/username/Ar-Rahman-Quran.git
-   ```
-
-2. **Install dependensi**:
-   ```bash
-   npm install
-   ```
-
-3. **Jalankan aplikasi**:
-   ```bash
-   npm start
-   ```
-
-Aplikasi akan berjalan di `http://localhost:3000`.
 
 ## Kontribusi
 
@@ -136,12 +112,10 @@ Aplikasi ini menggunakan **MIT License**. Anda bebas untuk menggunakannya, memod
 ---
 
 Terima kasih telah menggunakan **Ar-Rahman Qur'an**! Semoga aplikasi ini bermanfaat dalam mendengarkan bacaan Al-Quran dengan nyaman. 🙏
-```
+
 
 ### Penjelasan:
 1. **Logo**: Logo aplikasi ditampilkan di bagian atas. Pastikan Anda memiliki file logo `logo.png` yang sesuai di direktori yang sama dengan file README.md.
 2. **Tampilan Aplikasi**: Dilengkapi dengan screenshot aplikasi yang dapat Anda tambahkan sebagai file `screenshot.png`.
 3. **Instalasi**: Langkah-langkah instalasi dijelaskan untuk pengguna yang ingin menjalankan aplikasi di lokal mereka.
 4. **Kontribusi dan Lisensi**: Menyediakan panduan untuk kontribusi dan informasi lisensi.
-
-Anda bisa mengganti `URL_APLIKASI_ANDA` dengan URL aplikasi web yang sebenarnya. Juga pastikan untuk menambahkan file gambar seperti `logo.png` dan `screenshot.png` di direktori yang sama dengan file README.md untuk memastikan gambar ditampilkan dengan benar.
