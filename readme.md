@@ -9,7 +9,7 @@
 
 Aplikasi **Ar-Rahman Qur'an** dapat diakses langsung melalui link berikut:
 
-[Ar-Rahman Qur'an Web App](URL_APLIKASI_ANDA)
+[Ar-Rahman Qur'an Web App](https://farul1.github.io/Ar-Rahman-Qur-an-API/)
 
 ## Fitur Utama
 
