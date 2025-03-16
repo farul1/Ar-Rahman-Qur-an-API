@@ -29,7 +29,8 @@ Anda dapat mencoba aplikasi **Ar-Rahman Qur'an** secara langsung di sini:
    - **Response**:
      - **Format**: JSON
      - **Contoh Response**:
-       {
+      ```json
+      {
     "code": 200,
     "status": "OK",
     "data": [
@@ -61,6 +62,8 @@ Anda dapat mencoba aplikasi **Ar-Rahman Qur'an** secara langsung di sini:
     ]
 }
 
+
+       ```
 
    - **Penjelasan**:
      - Endpoint ini mengembalikan daftar surah yang ada di Al-Quran, dimulai dari surah pertama (Al-Fatiha) hingga surah terakhir.
