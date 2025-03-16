@@ -1,0 +1,178 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #00695c;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #00796b;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Form containers */
+.form-container {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00796b;
+}
+
+select {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00796b;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+/* Audio player */
+audio {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Surat Text Styling */
+#quranText {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.8;
+    font-family: 'Tahoma', sans-serif;
+    direction: rtl;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#quranText .ayat {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #e0f7fa;
+}
+
+#quranText .ayat-number {
+    font-size: 0.8rem;
+    color: #00796b;
+    margin-left: 10px;
+}
+
+#quranText .bismillah {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #00796b;
+    margin-bottom: 15px;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    direction: rtl;
+}
+
+#quranText .sadaqallah {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00796b;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .form-container {
+        margin-bottom: 10px;
+    }
+
+    select {
+        width: 200px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}

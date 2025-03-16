@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ar-Rahman Qur'an</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo Ar-Rahman Qur'an" class="logo">
+            <h1>Ar-Rahman Qur'an</h1>
+        </div>
+    </header>
+
+    <main>
+        <h2>Pilih Surat dan Pembaca</h2>
+
+        <div class="form-container">
+            <label for="reciter">Pilih Pembaca:</label>
+            <select id="reciter"></select>
+        </div>
+
+        <div class="form-container">
+            <label for="surat">Pilih Surat:</label>
+            <select id="surat"></select>
+        </div>
+
+        <button onclick="playFullSurah()">Putar Surat Lengkap</button>
+
+        <audio id="player" controls style="display:none;"></audio>
+        <div id="quranText"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ar-Rahman Qur'an. by Farul.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

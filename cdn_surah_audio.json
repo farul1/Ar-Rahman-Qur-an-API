@@ -1,0 +1,182 @@
+[
+    {
+        "identifier": "ar.abdulazizazzahrani",
+        "language": "ar",
+        "name": "عبد العزيز الزهراني",
+        "englishName": "Abdulaziz Az-Zahrani",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdulbariaththubaity",
+        "language": "ar",
+        "name": "عبد الباري الثبيتي",
+        "englishName": "AbdulBari ath-Thubaity",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdulbarimohammed",
+        "language": "ar",
+        "name": "عبد الباري محمد",
+        "englishName": "Abdul Bari Mohammed",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdulbasitmujawwad",
+        "language": "ar",
+        "name": "عبد الباسط عبد الصمد - مجود",
+        "englishName": "AbdulBaset AbdulSamad [Mujawwad]",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdulbasitmurattal",
+        "language": "ar",
+        "name": "عبد الباسط عبد الصمد - مرتل",
+        "englishName": "AbdulBaset AbdulSamad [Murattal]",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdulkareemalhazmi",
+        "language": "ar",
+        "name": "عبد الكريم الحازمي",
+        "englishName": "Abdul-Kareem al-Hazmi",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdullahalmatrood",
+        "language": "ar",
+        "name": "عبد الله المطرود",
+        "englishName": "Abdullah al-Matrood",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdullahawadaljuhani",
+        "language": "ar",
+        "name": "عبد الله الجهني",
+        "englishName": "Abdullah Juhany",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdullahbasfar",
+        "language": "ar",
+        "name": "عبد الله بصفر",
+        "englishName": "Abdullah Basfar",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdullahkhayat",
+        "language": "ar",
+        "name": "عبد الله خياط",
+        "englishName": "Abdullah Khayat",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdullahkhulaifi",
+        "language": "ar",
+        "name": "عبد الله الخليفي",
+        "englishName": "Abdullah Khulayfee",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdulmohsenalharthy",
+        "language": "ar",
+        "name": "عبد المحسن الحارثي",
+        "englishName": "Abdulmohsen Al-Harthy",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdulmuhsinalqasim",
+        "language": "ar",
+        "name": "عبد المحسن القاسم",
+        "englishName": "AbdulMuhsin al-Qasim",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdulmunimabdulmubdi",
+        "language": "ar",
+        "name": "عبد المنعم عبد المبدئ",
+        "englishName": "Abdul-Mun'im Abdul-Mubdi'",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdulwadoodhaneef",
+        "language": "ar",
+        "name": "عبد الودود حنيف",
+        "englishName": "AbdulWadood Haneef",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdurrasheedsufiabialhaarithanalkasaaee",
+        "language": "ar",
+        "name": "عبد الرشيد صوفي [أبي الحارث عن الكسائي]",
+        "englishName": "Abdur-Rashid Sufi [Abi al-Haarith an al-Kasaa’ee]",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdurrasheedsufiaddoorianabiamr",
+        "language": "ar",
+        "name": "عبد الرشيد صوفي [الدوري عن أبي عمرو]",
+        "englishName": "Abdur-Rashid Sufi [ad-Doori an Abi Amr]",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdurrasheedsufishubahanasim",
+        "language": "ar",
+        "name": "عبد الرشيد صوفي [شعبة عن عاصم]",
+        "englishName": "Abdur-Rashid Sufi [Shu'bah an Asim]",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdurrasheedsufisoosi",
+        "language": "ar",
+        "name": "عبد الرشيد صوفي [سوسي]",
+        "englishName": "Abdurrashid Sufi [Soosi]",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    },
+    {
+        "identifier": "ar.abdurrazaqbinabtanaldulaimi",
+        "language": "ar",
+        "name": "عبد الرزاق بن أبتان الدليمي",
+        "englishName": "Abdur Razaq Bin Abtan Al Dulaimi",
+        "format": "audio",
+        "type": "surahbysurah",
+        "bitrate": "128"
+    }
+]
