@@ -1,143 +1,148 @@
+
+```markdown
 # Ar-Rahman Qur'an
 
-**Ar-Rahman Qur'an** adalah aplikasi web yang memungkinkan pengguna untuk memilih surah dari Al-Quran dan mendengarkan bacaan oleh berbagai pembaca (Qari). Aplikasi ini menggunakan dua public API untuk mendapatkan data surah Al-Quran dan daftar pembaca.
+![Logo Ar-Rahman Qur'an](logo.png)
+
+**Ar-Rahman Qur'an** adalah aplikasi web yang memungkinkan pengguna untuk memilih surah dari Al-Quran dan mendengarkan bacaan oleh berbagai pembaca (Qari). Aplikasi ini memanfaatkan dua public API untuk mengambil data surah Al-Quran dan daftar pembaca, sehingga memberikan pengalaman mendengarkan Al-Quran yang interaktif dan menyenangkan.
 
 ## Akses Aplikasi
 
-Anda dapat mencoba aplikasi **Ar-Rahman Qur'an** secara langsung di sini:
+Aplikasi **Ar-Rahman Qur'an** dapat diakses langsung melalui link berikut:
 
 [Ar-Rahman Qur'an Web App](URL_APLIKASI_ANDA)
 
 ## Fitur Utama
-- Memilih surah dari daftar yang tersedia.
-- Memilih pembaca (Qari) untuk setiap surah.
-- Memutar audio dari pembaca yang dipilih dengan teks yang muncul di halaman.
-- Teks surah ditampilkan beserta nomor ayat, termasuk "Bismillah" di awal dan "Sadaqallah" di akhir.
-- Aplikasi sederhana dan mudah digunakan untuk mendengarkan Al-Quran.
+
+- **Pilih Surah**: Pengguna dapat memilih surah Al-Quran dari daftar yang lengkap.
+- **Pilih Pembaca (Qari)**: Dapat memilih dari berbagai Qari yang tersedia untuk setiap surah.
+- **Pemutar Audio**: Mendengarkan bacaan surah oleh pembaca yang dipilih dengan teks yang muncul di halaman.
+- **Teks Surah**: Teks surah ditampilkan secara lengkap beserta nomor ayat, termasuk "Bismillah" di awal dan "Sadaqallah" di akhir.
+- **Antarmuka Sederhana**: Aplikasi dengan desain yang ramah pengguna dan mudah digunakan, sehingga memudahkan setiap orang dalam mendengarkan Al-Quran.
 
 ## Keterangan API Public yang Digunakan
+
+Aplikasi ini menggunakan beberapa API publik yang menyediakan data terkait surah Al-Quran dan pembaca (Qari). Berikut adalah rincian API yang digunakan:
 
 ### 1. **Al-Quran Cloud API**
    - **URL**: `https://api.alquran.cloud/v1/surah`
    - **Metode HTTP**: `GET`
-   - **Deskripsi**: API ini digunakan untuk mendapatkan daftar surah yang terdapat dalam Al-Quran. Setiap surah memiliki informasi seperti nomor surah, nama surah, dan nama surah dalam bahasa Inggris.
+   - **Deskripsi**: API ini menyediakan data tentang surah yang ada dalam Al-Quran, termasuk nama surah, nomor surah, dan informasi lainnya.
 
-   ### **Endpoint**: `/v1/surah`
-   - **Request**:
-     - **Method**: `GET`
-     - **URL**: `https://api.alquran.cloud/v1/surah`
-   - **Response**:
-     - **Format**: JSON
-     - **Contoh Response**:
-      ```json
-      {
-    "code": 200,
-    "status": "OK",
-    "data": [
-        {
-            "number": 1,
-            "name": "سورة الفاتحة",
-            "englishName": "Al-Faatiha",
-            "englishNameTranslation": "The Opening",
-            "numberOfAyahs": 7,
-            "revelationType": "Meccan"
-        },
-        {
-            "number": 2,
-            "name": "سورة البقرة",
-            "englishName": "Al-Baqara",
-            "englishNameTranslation": "The Cow",
-            "numberOfAyahs": 286,
-            "revelationType": "Medinan"
-        },
-        {
-            "number": 3,
-            "name": "سورة آل عمران",
-            "englishName": "Aal-i-Imraan",
-            "englishNameTranslation": "The Family of Imraan",
-            "numberOfAyahs": 200,
-            "revelationType": "Medinan"
-        },
-        ...
-    ]
-}
-
-
-       ```
-
-   - **Penjelasan**:
-     - Endpoint ini mengembalikan daftar surah yang ada di Al-Quran, dimulai dari surah pertama (Al-Fatiha) hingga surah terakhir.
-     - Setiap surah berisi informasi seperti:
-       - `number`: Nomor surah.
-       - `name`: Nama surah dalam bahasa Arab.
-       - `englishName`: Nama surah dalam bahasa Inggris.
-       - `englishNameTranslation`: Terjemahan nama surah dalam bahasa Inggris.
+   **Contoh Response**:
+   ```json
+   {
+     "code": 200,
+     "status": "OK",
+     "data": [
+       {
+         "number": 1,
+         "name": "سورة الفاتحة",
+         "englishName": "Al-Faatiha",
+         "englishNameTranslation": "The Opening",
+         "numberOfAyahs": 7,
+         "revelationType": "Meccan"
+       },
+       {
+         "number": 2,
+         "name": "سورة البقرة",
+         "englishName": "Al-Baqara",
+         "englishNameTranslation": "The Cow",
+         "numberOfAyahs": 286,
+         "revelationType": "Medinan"
+       }
+     ]
+   }
+   ```
 
 ### 2. **CDN Surah Audio JSON**
    - **URL**: `https://raw.githubusercontent.com/islamic-network/cdn/master/info/cdn_surah_audio.json`
    - **Metode HTTP**: `GET`
-   - **Deskripsi**: API ini digunakan untuk mendapatkan daftar pembaca (Qari) yang tersedia untuk setiap surah. Data yang diberikan mencakup identifier pembaca dan nama pembaca.
+   - **Deskripsi**: API ini memberikan daftar pembaca (Qari) yang tersedia untuk setiap surah.
 
-   ### **Endpoint**: `/info/cdn_surah_audio.json`
-   - **Request**:
-     - **Method**: `GET`
-     - **URL**: `https://raw.githubusercontent.com/islamic-network/cdn/master/info/cdn_surah_audio.json`
-   - **Response**:
-     - **Format**: JSON
-     - **Contoh Response**:
-       ```json
-       [
-         {
-           "identifier": "abdulbaset",
-           "name": "Abdul Baset"
-         },
-         {
-           "identifier": "alafasy",
-           "name": "Mishary Rashid Alafasy"
-         },
-         ...
-       ]
-       ```
-
-   - **Penjelasan**:
-     - Endpoint ini mengembalikan daftar pembaca (Qari) yang tersedia untuk bacaan surah.
-     - Setiap pembaca memiliki dua atribut:
-       - `identifier`: Identifier pembaca (digunakan untuk menentukan pembaca audio).
-       - `name`: Nama pembaca dalam format yang mudah dibaca.
+   **Contoh Response**:
+   ```json
+   [
+     {
+       "identifier": "abdulbaset",
+       "name": "Abdul Baset"
+     },
+     {
+       "identifier": "alafasy",
+       "name": "Mishary Rashid Alafasy"
+     }
+   ]
+   ```
 
 ### 3. **Audio Surah**
    - **URL**: `https://cdn.islamic.network/quran/audio-surah/128/{reciter}/{surahNumber}.mp3`
    - **Metode HTTP**: `GET`
-   - **Deskripsi**: Menggunakan API ini untuk mendapatkan file audio dari surah yang dipilih dengan pembaca (reciter) yang dipilih.
+   - **Deskripsi**: API ini menyediakan file audio dari surah yang dipilih dengan pembaca (Qari) yang dipilih.
 
-   ### **Endpoint**: `/audio-surah/128/{reciter}/{surahNumber}.mp3`
-   - **Request**:
-     - **Method**: `GET`
-     - **URL**: `https://cdn.islamic.network/quran/audio-surah/128/{reciter}/{surahNumber}.mp3`
-     - **Parameter**:
-       - `{reciter}`: Identifier pembaca yang dipilih (misalnya `abdulbaset`).
-       - `{surahNumber}`: Nomor surah yang dipilih (misalnya `1` untuk surah Al-Fatiha).
-   - **Response**:
-     - **Format**: Audio MP3.
-     - **Contoh Response**: Audio MP3 dari surah yang dipilih dibaca oleh pembaca yang dipilih.
-
-   - **Penjelasan**:
-     - Endpoint ini menyediakan file audio dari surah yang dipilih dengan pembaca yang dipilih.
-     - Kamu dapat mengakses audio MP3 langsung dari URL ini.
+   **Contoh URL**:
+   ```
+   https://cdn.islamic.network/quran/audio-surah/128/abdulbaset/1.mp3
+   ```
 
 ## Tampilan Aplikasi
 
-Aplikasi **Ar-Rahman Qur'an** memiliki tampilan yang sederhana dengan komponen berikut:
-- **Header**: Logo dan nama aplikasi "Ar-Rahman Qur'an".
-- **Dropdown untuk memilih pembaca**: Menggunakan data dari API pembaca.
-- **Dropdown untuk memilih surah**: Menggunakan data dari API surah.
-- **Tombol untuk memutar surah**: Setelah memilih surah dan pembaca, pengguna dapat menekan tombol untuk memutar surah.
-- **Audio player**: Menampilkan pemutar audio untuk memutar bacaan surah.
-- **Teks surah**: Menampilkan teks surah yang sedang diputar, lengkap dengan nomor ayat.
+Aplikasi **Ar-Rahman Qur'an** memiliki antarmuka yang ramah pengguna dengan beberapa komponen utama, antara lain:
+- **Header**: Menampilkan logo dan nama aplikasi **Ar-Rahman Qur'an**.
+- **Dropdown untuk memilih pembaca**: Memungkinkan pengguna memilih pembaca dari daftar Qari yang tersedia.
+- **Dropdown untuk memilih surah**: Memungkinkan pengguna memilih surah yang ingin didengarkan.
+- **Tombol "Putar Surat"**: Menekan tombol ini untuk mulai mendengarkan surah yang dipilih.
+- **Audio player**: Menampilkan pemutar audio untuk memainkan bacaan surah.
+- **Teks Surah**: Menampilkan teks surah yang sedang diputar, lengkap dengan nomor ayat.
 
 ## Cara Menggunakan Aplikasi
-1. Pilih pembaca (Qari) dari dropdown "Pilih Pembaca".
-2. Pilih surah yang ingin didengarkan dari dropdown "Pilih Surat".
-3. Klik tombol "Putar Surat Lengkap" untuk mulai mendengarkan surah.
-4. Teks surah akan ditampilkan di bawah pemutar audio, dan audio akan diputar dengan bacaan pembaca yang dipilih.
 
+1. **Pilih Pembaca (Qari)**: Pilih pembaca dari dropdown yang tersedia.
+2. **Pilih Surah**: Pilih surah yang ingin didengarkan dari dropdown yang tersedia.
+3. **Klik "Putar Surat"**: Tekan tombol untuk mulai mendengarkan surah yang dipilih dengan pembaca yang telah dipilih.
+4. **Teks Surah**: Teks surah akan ditampilkan secara otomatis di bawah pemutar audio.
+
+## Screenshot
+
+![Screenshot Ar-Rahman Qur'an](screenshot.png)
+
+## Instalasi
+
+Jika Anda ingin menjalankan aplikasi secara lokal, ikuti langkah-langkah berikut:
+
+1. **Clone repository ini**:
+   ```bash
+   git clone https://github.com/username/Ar-Rahman-Quran.git
+   ```
+
+2. **Install dependensi**:
+   ```bash
+   npm install
+   ```
+
+3. **Jalankan aplikasi**:
+   ```bash
+   npm start
+   ```
+
+Aplikasi akan berjalan di `http://localhost:3000`.
+
+## Kontribusi
+
+Kami menerima kontribusi dari siapa saja yang ingin membantu mengembangkan aplikasi ini! Jika Anda memiliki saran atau ingin melaporkan masalah, silakan buat **issue** atau **pull request** di repositori ini.
+
+## Lisensi
+
+Aplikasi ini menggunakan **MIT License**. Anda bebas untuk menggunakannya, memodifikasi, dan mendistribusikannya dengan syarat mencantumkan lisensi ini.
+
+---
+
+Terima kasih telah menggunakan **Ar-Rahman Qur'an**! Semoga aplikasi ini bermanfaat dalam mendengarkan bacaan Al-Quran dengan nyaman. 🙏
+```
+
+### Penjelasan:
+1. **Logo**: Logo aplikasi ditampilkan di bagian atas. Pastikan Anda memiliki file logo `logo.png` yang sesuai di direktori yang sama dengan file README.md.
+2. **Tampilan Aplikasi**: Dilengkapi dengan screenshot aplikasi yang dapat Anda tambahkan sebagai file `screenshot.png`.
+3. **Instalasi**: Langkah-langkah instalasi dijelaskan untuk pengguna yang ingin menjalankan aplikasi di lokal mereka.
+4. **Kontribusi dan Lisensi**: Menyediakan panduan untuk kontribusi dan informasi lisensi.
+
+Anda bisa mengganti `URL_APLIKASI_ANDA` dengan URL aplikasi web yang sebenarnya. Juga pastikan untuk menambahkan file gambar seperti `logo.png` dan `screenshot.png` di direktori yang sama dengan file README.md untuk memastikan gambar ditampilkan dengan benar.
