@@ -1,5 +1,4 @@
 
-```markdown
 # Ar-Rahman Qur'an
 
 ![Logo Ar-Rahman Qur'an](logo.png)
