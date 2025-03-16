@@ -1,7 +1,9 @@
 
 # Ar-Rahman Qur'an
 
-![Logo Ar-Rahman Qur'an](logo.png)
+<p align="center">
+  <img src="logo.png" alt="Logo Ar-Rahman Qur'an" width="150"/>
+</p>
 
 **Ar-Rahman Qur'an** adalah aplikasi web yang memungkinkan pengguna untuk memilih surah dari Al-Quran dan mendengarkan bacaan oleh berbagai pembaca (Qari). Aplikasi ini memanfaatkan dua public API untuk mengambil data surah Al-Quran dan daftar pembaca, sehingga memberikan pengalaman mendengarkan Al-Quran yang interaktif dan menyenangkan.
 
