@@ -63,7 +63,7 @@ async function playFullSurah() {
                 span.className = "ayat";
 
                 const ayatNumber = document.createElement("span");
-                ayatNumber.textContent = index + 1;  // Correctly handle ayat numbering
+                ayatNumber.textContent = index + 1;  
                 ayatNumber.className = "ayat-number";
 
                 span.appendChild(ayatNumber);
